@@ -1,4 +1,4 @@
-public class Hotel {
+public class hotel {
 
     // Variables to store hotel information
     String name; // Name of the hotel
@@ -48,11 +48,11 @@ public class Hotel {
     }
 
     // Default constructor for the Hotel class
-    public Hotel() {
+    public hotel() {
     }
 
     // Constructor with parameters to initialize hotel attributes
-    public Hotel(String name, String address, String web, Manager manager) {
+    public hotel(String name, String address, String web, Manager manager) {
         this.name = name;
         this.address = address;
         this.web = web;
